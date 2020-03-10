@@ -1,0 +1,251 @@
+body{
+
+background-image: url(background.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    color: white;
+}
+
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .socialIcons{
+    text-align: right;
+  }
+
+  
+
+  .flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 0em;
+  }
+
+  .flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; 
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+ 
+  }
+ 
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+ 
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    
+  }
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+    justify-content: center;
+  }
+
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    justify-content: center;
+  }
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+    justify-content: center;
+  }
+  .flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+    justify-content: center;
+  }
+
+
+
+  
+
+  .btn{
+    cursor: pointer;
+    padding: 14px 28px;
+    
+  }
+
+  .GetStarted:hover {background-color: #4CAF50;}
+    .button{
+      
+      text-align: center;
+      cursor: pointer;
+    }
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 5%;
+   
+  }
+  
+  /* middle column */
+  .middlecolumn{
+    float: left;;
+    width: 25%;
+    padding-left: 5%;
+  }
+
+  .rightcolumn{
+    float: left;;
+    width: 25%;
+    padding-left: 5%;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 50%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .textmessage{
+    float: left;
+    width: 25%;
+    padding-left: 15%;
+  
+  }
+  .form{
+    float: left;;
+    width: 25%;
+    
+  }
+  #call{
+    color: green;
+  }
+
+  #email{
+    color: green;
+  }
+  .contact{
+    background-color: turquoise;
+  }
+
+  .formcolor{
+    background-color: white;
+  }
+  h5{
+    text-align: left;
+    text-decoration: wavy;
+    
+    font-weight: bolder;
+  }
+  #skills{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+  }
+  
+  .container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+  }
+  
+  .skills {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+  }
+  
+  .html {width: 90%; background-color: #4CAF50;} /* Green */
+  .css {width: 80%; background-color: #2196F3;} /* Blue */
+  .js {width: 65%; background-color: #f44336;} /* Red */
+  .php {width: 60%; background-color: #808080;} /* Dark Grey */
+
+  .glow{
+    font-size: 50px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  }
+   @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  } 
+  .jsFunction
+  {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+  }
+
+
